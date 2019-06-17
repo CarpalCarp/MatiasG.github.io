@@ -1,122 +1,202 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="">
 
-	<head>
-	
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		
-		<link rel="stylesheet" type="text/css" href="CSS/main.css"/>
-		
-		<title>Matias' portfolio</title>
-	</head>
-	
-	<body>
-        <div class="container">
-            <div id="content">
-                <div class="header">
-                    <div>
-                        <h2>Matias Galante</h2>
-                    </div>
-                    <div>
-                        <button id="home" onclick="homeButton()">home</button>
-                        <button id="aboutMe" onclick="aboutMeButton()">about me</button>
-                    </div>
-                </div>
-                <div class="home">
-                    <div>
-                        <h2>Passionate programmer looking to create great things</h2>
-                        <p>Self-learning student looking to gain experience in software development and learn how I can improve the skills I have and apply them in the industry. My passion for software development sets me apart from my peers and helps me to work hard. I want to take what I already know and use it in a real-world application as well as expand my knowledge of software technologies to do more.</p>
-                        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#resumeModal">Resume</button>
-                    </div>
-                    <div class="modal fade" id="resumeModal" role="dialog">
-                        <!-- Modal content -->
-                        <div class="modal-dialog modal-lg">
-                            <!-- Modal content -->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h4 class="modal-title">Matias N. Galante</h4>
-                                    <p>matiasng087@gmail.com</p>
-                                    
-                                </div>
-                                <div class="modal-body">
-                                    <h2>Summary</h2>
-                                    <p>Self-learning student looking to gain experience in software development and learn how I can improve the skills I have and apply them in the industry. My passion for software development sets me apart from my peers and helps me to work hard. I want to take what I already know and use it in a real-world application as well as expand my knowledge of software technologies to do more.</p>
-                                    <h2>Skills</h2>
-                                    <ul>
-                                        <li>Experience with C++, Java, JS, jQuery, C#, HTML, CSS, Bootstrap. Familiarity with C, Git.</li>
-                                        <li>Use effective communication to resolve issues.</li>
-                                        <li>IDE's: Experience using Visual Studio, cloud9, IntelliJ.</li>
-                                        <li>Language: English and Spanish.</li>
-                                    </ul>
-                                    <h2>Education</h2>
-                                    <p><b>Utah Valley University</b></p>
-                                    <p>Will graduate Spring 2020 with Bachelor's in Computer Science with Computer Science Emphasis</p>
-                                    <h2>Employment History</h2>
-                                    <p>Utah Community Credit Union, Teller, Provo, UT &nbsp;&nbsp;&nbsp;&nbsp; Jul. 2017-Dec. 2017</p> <!-- &nbsp; stands for tab space-->
-                                    <p>The Results Companies, Customer Care Agent, Provo, UT &nbsp;&nbsp;&nbsp;&nbsp; Jun. 2016-Mar.2017</p>
-                                    <ul>
-                                        <li>Received customer service phone calls for technical issues, inbound sales and retention.</li>
-                                        <li>Used effective communication to resolve issues.</li>
-                                    </ul>
-                                    <p>Joe Vera’s Mexican Restaurant, Server, Provo, UT &nbsp;&nbsp;&nbsp;&nbsp; Feb. 2015-May 2015</p>
-                                    <p>Allen’s, Cashier, Provo, UT &nbsp;&nbsp;&nbsp;&nbsp; Mar. 2015-Nov. 2015</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="Pictures/MatiasPicture.JPG" alt="Matias" height="400" width="280">
-                    </div>
-                </div>
-                <div class="aboutMe">
-                    <div>
-                        <h4>Where I'm from</h4>
-                        <img src="Pictures/Argentina.jpg" id="argentinaPic" alt="Argentina" height="350" width="200">
-                        <p>I was born and raised in Córdoba, Argentina until I was 7 and later moved to the U.S. with my family.</p>
-                    </div>
-                    <div>
-                        <h4>Hobbies</h4>
-                        <ul>
-                            <li>Program games</li>
-                            <li>Play games</li>
-                            <li>Exercise</li>
-                            <li>Hiking high places</li>
-                            <li>Watch movies and Netflix</li>
-                        </ul>
-                        <h4>Interests</h4>
-                        <ul>
-                            <li>Enjoy travelling</li>
-                            <li>Doing activities with my family</li>
-                            <li>Listening to music as I go exercising</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4>Currently live</h4>
-                        <p>I'm currently living in Orem, Utah. I'm married and attend school at Utah Valley University.</p>
-                        <h4>Projects for fun</h4>
-                        <p>As part of classes I've taken, I've participated in group projects in making small programs for a demonstration in class. On my own I coded two games from a tutorial series I following from a C# programming book. This is part of what I enjoy doing as part of my hobbies, it helps me to learn.</p>
-                        <h4>What I want to get into</h4>
-                        <p>My biggest passion for the industry is in web and software development. At the moment, anything software development sounds exciting to me.</p>
-                    </div>
-                </div>
-                <div class="contact">Contact</div>
-                <div class="pictures">Pictures</div>
-            </div><!-- end of content div -->
-        </div><!-- end of container div -->
-	</body>
-	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	
-	<!-- link to javascript code -->
-	<script src="JS/RenderPage.js"></script>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  [endif] -->
+
+  <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg bg-dark navbar-dark fixed-top">
+    
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link">matiasng087@gmail.com</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">(385) 250 5796</a>
+      </li>
+    </ul>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutMe">About Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid">
+    <header class="row justify-content-center" id="home">
+        <div class="col-md-4">
+          <div class="mx-auto text-center">
+            <h1 id="nameLogo">Matias Galante</h1>
+          </div>
+        </div>
+      </header>
+    
+    <div class="row justify-content-around my-2">
+      <aside class="col-md-4">
+        <img src="img/MatiasPicture.jpg" alg="Matias" height="400" width="280">
+      </aside>  
+      
+      <main class="col-md-4 col-sm-2">
+          <div>
+              <h2>Passionate programmer looking to create great things</h2>
+              <p>Self-learning student looking to gain experience in full stack web development and learn how I can improve the skills I have and apply them in the industry. My passion for development sets me apart from my peers and helps me to work hard. I want to take what I already know and use it in a real-world application as well as expand my knowledge of web technologies to do more.</p>
+          </div>
+
+
+          <button class="btn btn-primary" data-toggle="modal" data-target="#resumeModal">Show me your resume</button>
+
+          <!-- modal starts here -->
+          <div class="modal fade" id="resumeModal">
+
+              <div class="modal-dialog modal-dialog-scrollable modal-sm modal-md modal-lg">
+
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h4 class="modal-title">Resume</h4>
+                          <button class="close" data-dismiss="modal">&times;</button>  
+                      </div>
+
+                      <div class="modal-body">
+                          <h2>Summary</h2>
+                          <p>Self-learning student looking to gain experience in software development and learn how I can improve the skills I have and apply them in the industry. My passion for software development sets me apart from my peers and helps me to work hard. I want to take what I already know and use it in a real-world application as well as expand my knowledge of software technologies to do more.</p>
+                          <h2>Skills</h2>
+                          <ul>
+                              <li>Experience with C++, Java, JS, jQuery, C#, HTML, CSS, SQL. Familiarity with C, Git, PHP and MySql.</li>
+                              <li>I understand how to use these CSS layouts: Bootstrap, CSS Grid, Flexbox</li>
+                              <li>Use effective communication to resolve issues.</li>
+                              <li>IDE's: Experience using Visual Studio, cloud9, IntelliJ, VS Code.</li>
+                              <li>Language: English and Spanish.</li>
+                          </ul>
+                          <h2>Education</h2>
+                          <p><b>Utah Valley University</b></p>
+                          <p>Will graduate Spring 2020 with Bachelor's in Computer Science with Computer Science Emphasis</p>
+                          <h2>Employment History</h2>
+                          <p>Utah Community Credit Union, Teller, Provo, UT &nbsp;&nbsp;&nbsp;&nbsp; Jul. 2017-Dec. 2017</p>
+                          <p>The Results Companies, Customer Care Agent, Provo, UT &nbsp;&nbsp;&nbsp;&nbsp; Jun. 2016-Mar.2017</p>
+                          <ul>
+                              <li>Received customer service phone calls for technical issues, inbound sales and retention.</li>
+                              <li>Used effective communication to resolve issues.</li>
+                          </ul>
+                          <p>Joe Vera’s Mexican Restaurant, Server, Provo, UT &nbsp;&nbsp;&nbsp;&nbsp; Feb. 2015-May 2015</p>
+                          <p>Allen’s, Cashier, Provo, UT &nbsp;&nbsp;&nbsp;&nbsp; Mar. 2015-Nov. 2015</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+        </main>
+    </div>
+
+    <article class="row justify-content-around my-2" id="aboutMe">
+      <div class="col-md-3 mx-2 py-2">
+        <div class="card bg-info">
+          <div class="card-body">
+            <h4>Currently live</h4>
+            <p>I'm currently living in Provo, Utah. I'm married and attend school at Utah Valley University.</p>
+            <h4>Projects for fun</h4>
+            <p>As part of classes I've taken, I've participated in group projects in making small programs for a demonstration in class. On my own I coded two games from a tutorial series I following from a C# programming book. This is part of what I enjoy doing as part of my hobbies, it helps me to learn.</p>
+            <h4>What I want to get into</h4>
+            <p>My biggest passion for the industry is in web full stack development. At the moment, anything web related sounds exciting to me.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 mx-2 py-2">
+        <div class="card bg-info">
+          <img class="card-img-top" src="img/Argentina.jpg" id="argentinaPic" alt="Argentina" height="350" width="200">
+          <div class="card-body">
+            <h4>Where I'm from</h4>
+            <p>I was born and raised in Córdoba, Argentina until I was 7 and later moved to the U.S. with my family.</p>
+          </div>          
+        </div>        
+      </div>
+      <div class="col-md-3 mx-2 py-2">
+        <div class="card bg-info">
+          <div class="card-body">
+              <h4>Hobbies</h4>
+              <ul>
+                <li>Play games</li>
+                <li>Exercise</li>
+                <li>Hiking high places</li>
+                <li>Watch movies</li>
+              </ul>
+              <h4>Interests</h4>
+              <ul>
+                <li>Enjoy travelling</li>
+                <li>Doing activities with my family</li>
+                <li>Listening to music</li>
+                <li>Go running</li>
+                <li>Learn new web related technologies</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <section class="row justify-content-around mx-1">
+      <div class="col-md-12 col-sm-12">
+        <h2>Certificates</h2>
+      </div>    
+      <div class="col-md-12 col-sm-12">
+        <img src="img/javascriptCourse.png" alt="Modern Javascript" height="280" width="330">
+        <p>Certificate No.: UC-Z4GSONVG</p>
+        <p>Certificate URL: <a href="https://www.udemy.com/certificate/UC-Z4GSONVG/" target="_blank">ude.my/UC-Z4GSONVG</a></p>
+      </div>
+    </section>
+    
+    <footer class="row">
+        <div class="col-md col-sm"></div>
+    </footer>
+
+  </div>
+  
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
 
 </html>
