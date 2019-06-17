@@ -152,7 +152,7 @@ article > div > .card{
 }
 
 article > div, section > div{
-    text-align: center
+    text-align: center;
 }
 
 footer{
