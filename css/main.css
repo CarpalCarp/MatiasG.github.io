@@ -118,11 +118,26 @@ body > div > div{
     text-align: center;
 }
 
+#hello{
+    margin-top: -50px;
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+#resumeAndProjectBtns{
+    text-align: center;
+}
+
+main button{
+    margin: 10px;
+}
+
 #nameLogo{
     background-color: #949497;
     border-radius: 800px;
     margin-top: 125px;
-    margin-bottom: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -132,6 +147,7 @@ main{
     padding: 5px;
     min-width: 300px;
     padding-bottom: 15px;
+    max-height: auto;
 }
 
 aside > img{
