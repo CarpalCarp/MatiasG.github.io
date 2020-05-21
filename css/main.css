@@ -171,6 +171,10 @@ article > div, section > div{
     text-align: center;
 }
 
+div .card-body .text-left{
+    color: #d1d0d4;
+}
+
 footer{
     background-color: #343a40;
     min-height: 2.5em;
