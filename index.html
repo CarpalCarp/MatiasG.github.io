@@ -76,11 +76,9 @@
         <div class="d-flex flex-column d-inline-flex">
           <button class="btn btn-primary" data-toggle="modal" data-target="#resumeModal">Show me
             your resume</button>
-          <a class="btn btn-primary"
-            href='https://github.com/CarpalCarp?tab=repositories' target="_blank">Show me your
+          <a class="btn btn-primary" href='https://github.com/CarpalCarp?tab=repositories' target="_blank">Show me your
             projects</a>
-          <a class="btn btn-primary"
-            href='https://linkedin.com/in/matias-galante-20bbb4161' target="_blank">LinkedIn
+          <a class="btn btn-primary" href='https://linkedin.com/in/matias-galante-20bbb4161' target="_blank">LinkedIn
             Profile</a>
         </div>
 
@@ -191,11 +189,8 @@
       <div class="col-md-12 col-sm-12">
         <h2>Certificates</h2>
       </div>
-      <div class="col-md-12 col-sm-12 mx-2">
-        <img src="img/javascriptCourse.png" alt="Modern Javascript" height="280" width="330">
-        <p>Certificate No.: UC-Z4GSONVG</p>
-        <p>Certificate URL: <a href="https://www.udemy.com/certificate/UC-Z4GSONVG/"
-            target="_blank">ude.my/UC-Z4GSONVG</a></p>
+      <div class="row certificates">
+
       </div>
     </section>
 
@@ -213,6 +208,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      displayCertificates();
+    });
+  </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
