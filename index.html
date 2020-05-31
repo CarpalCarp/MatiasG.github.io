@@ -54,14 +54,14 @@
 
   <div class="container-fluid">
     <header class="row justify-content-center" id="home">
-      <div class="col-md-4">
+      <div class="col-md-6 col-sm-4">
         <div class="mx-auto text-center">
           <h1 id="nameLogo">Matias Galante</h1>
         </div>
       </div>
     </header>
 
-    <div id="hello" class="row justify-content-around">
+    <div class="row justify-content-around">
       <aside class="col-md-4">
         <img src="img/MatiasPicture.jpg" alg="Matias" height="400" width="280">
       </aside>
@@ -185,11 +185,19 @@
       </div>
     </article>
 
-    <section class="row justify-content-around mx-1">
+    <section>
       <div class="col-md-12 col-sm-12">
         <h2>Certificates</h2>
       </div>
       <div class="row certificates">
+      </div>
+    </section>
+
+    <section>
+      <div class="col-md-12 col-sm-12">
+        <h2>Other projects hosted by Github Pages</h2>
+      </div>
+      <div class="row github-pages-projects">
 
       </div>
     </section>
@@ -213,6 +221,7 @@
   <script>
     $(document).ready(function () {
       displayCertificates();
+      displayProjects();
     });
   </script>
 
