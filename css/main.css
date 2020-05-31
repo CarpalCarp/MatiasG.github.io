@@ -175,18 +175,84 @@ div .card-body .text-left{
     color: #d1d0d4;
 }
 
+section{
+    margin-bottom: 100px;
+}
+
+.github-pages-projects > div{
+    min-width: 400px;
+    max-width: 400px;
+    text-align: left;
+}
+
+.github-pages-projects > div > div, .certificates > div{
+    margin-bottom: 20px;
+}
+
+.github-pages-projects > div > div > h3{
+    padding-left: 20px;
+}
+
 footer{
     background-color: #343a40;
     min-height: 2.5em;
 }
 
+/* small phones */
+@media only screen and (max-width: 600px) {
+    
+    main, .github-pages-projects > div, article > div > .card, .certificates > div{
+        min-width: 100%;
+    }
 
+    article > div > .card, section{
+        margin-bottom: 10px;
+    }
+}
 
+/* portrait tablets and large phones */
+@media only screen and (min-width: 600px){
+    main, .github-pages-projects > div, article > div > .card, .certificates > div{
+        min-width: 60%;
+    }
 
+    section > div+div{
+        display: flex;
+        justify-content: center;
+    }
 
+    article > div > .card, section{
+        margin-bottom: 10px;
+    }
+}
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+    main{
+        min-width: 300px;
+    }
 
+    article > div > .card{
+        min-width: 240px;
+    }
+}
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .github-pages-projects > div, article > div > .card, .certificates > div{
+        min-width: 40%;
+    }
+
+    section > div+div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.row.certificates, div.row.github-pages-projects{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
 
  /* ==========================================================================
    Helper classes
