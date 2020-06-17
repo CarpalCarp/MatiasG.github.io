@@ -8,6 +8,11 @@ let certificateData = [
         src: "img/OOJavascript.png",
         alt: "Object Oriented Javascript",
         certificateNo: "cert_679dw1jm"
+    },
+    {
+        src: "img/Angular4Completion.PNG",
+        alt: "Angular 4: Beginner to Pro",
+        certificateNo: "cert_wsnrxxk2"
     }
 ];
 
