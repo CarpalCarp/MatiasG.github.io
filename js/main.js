@@ -37,6 +37,13 @@ let projectData = [
         src: "img/LeagueManagement.PNG",
         url: "https://carpalcarp.github.io/League-Management-Website/",
         description: "This was a project I made in one of my web classes. It is the pure front-end of a league management system. Most of the links don't work since it only displays information about teams and players. This project was the preceding one before we had to create the backend in PHP. The backend is not provided."
+    },
+    {
+        id: 4,
+        name: "Fly Swatter",
+        src: "img/FlySwatter.PNG",
+        url: "https://carpalcarp.github.io/fly-swatter/",
+        description: `Fly Swatter is a game I made for fun as I've been practicing using Angular, even though Angular is not meant to be used for making games. I tried to replicate Fly Swatter from Super Mario Paint for the SNES. Here's a link to a video of how the original game was like: https://www.youtube.com/watch?v=vAQXJbfihxo. The game is meant to be played using a mouse.`
     }
 ]
 
